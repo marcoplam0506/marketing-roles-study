@@ -1,0 +1,192 @@
+{
+ "within": [
+  {
+   "subcat": "Other Marketing",
+   "n": 19,
+   "n_yes": 7,
+   "n_no": 12,
+   "hard_rate": 36.84210526315789,
+   "median": 171000.0,
+   "med_yes": 217500.0,
+   "med_no": 163625.0,
+   "pct": 32.925897631779975,
+   "skip": false
+  },
+  {
+   "subcat": "Brand & Creative",
+   "n": 44,
+   "n_yes": 6,
+   "n_no": 38,
+   "hard_rate": 13.636363636363635,
+   "median": 177462.0,
+   "med_yes": 224050.0,
+   "med_no": 177462.0,
+   "pct": 26.25238079138068,
+   "skip": false
+  },
+  {
+   "subcat": "Content & Social",
+   "n": 39,
+   "n_yes": 8,
+   "n_no": 31,
+   "hard_rate": 20.51282051282051,
+   "median": 148800.0,
+   "med_yes": 173400.0,
+   "med_no": 139000.0,
+   "pct": 24.748201438848927,
+   "skip": false
+  },
+  {
+   "subcat": "Field & Partner Marketing",
+   "n": 20,
+   "n_yes": 8,
+   "n_no": 12,
+   "hard_rate": 40.0,
+   "median": 178012.5,
+   "med_yes": 206475.0,
+   "med_no": 178012.5,
+   "pct": 15.98904571308195,
+   "skip": false
+  },
+  {
+   "subcat": "Growth & Performance",
+   "n": 71,
+   "n_yes": 45,
+   "n_no": 26,
+   "hard_rate": 63.38028169014085,
+   "median": 166500.0,
+   "med_yes": 176500.0,
+   "med_no": 157700.0,
+   "pct": 11.921369689283456,
+   "skip": false
+  },
+  {
+   "subcat": "Product Marketing",
+   "n": 46,
+   "n_yes": 12,
+   "n_no": 34,
+   "hard_rate": 26.08695652173913,
+   "median": 186425.0,
+   "med_yes": 188575.0,
+   "med_no": 184675.0,
+   "pct": 2.1118180587518687,
+   "skip": false
+  },
+  {
+   "subcat": "Comms & PR",
+   "n": 16,
+   "skip": true,
+   "hard_rate": 0.0,
+   "median": 211000.0
+  },
+  {
+   "subcat": "Lifecycle & CRM",
+   "n": 19,
+   "skip": true,
+   "hard_rate": 89.47368421052632,
+   "median": 176500.0
+  },
+  {
+   "subcat": "Marketing Ops & Analytics",
+   "n": 14,
+   "skip": true,
+   "hard_rate": 100.0,
+   "median": 165500.0
+  }
+ ],
+ "within_positive": [
+  6,
+  6
+ ],
+ "within_median": 20.368623575965437,
+ "across": {
+  "r": -0.39929660844332865,
+  "lo": -0.8765058483517043,
+  "hi": 0.37278824917709447,
+  "k": 9
+ },
+ "spread": {
+  "subcat_hi": 211000.0,
+  "subcat_lo": 148800.0,
+  "subcat_hi_name": "Comms & PR",
+  "subcat_lo_name": "Content & Social",
+  "level_hi": 216250.0,
+  "level_lo": 162000.0,
+  "lead_vs_ic": {
+   "diff": 54250.0,
+   "lo": 31250.0,
+   "hi": 83478.75000000001
+  },
+  "data_vs_not": {
+   "diff": 5875.0,
+   "lo": -11500.0,
+   "hi": 17145.0
+  }
+ },
+ "rate_by_level": {
+  "IC": {
+   "n": 158,
+   "pct": 37.9746835443038
+  },
+  "Senior": {
+   "n": 150,
+   "pct": 37.333333333333336
+  },
+  "Leadership": {
+   "n": 59,
+   "pct": 40.67796610169492
+  }
+ },
+ "rate_by_subcat": [
+  {
+   "subcat": "Marketing Ops & Analytics",
+   "n": 15,
+   "pct": 100.0
+  },
+  {
+   "subcat": "Lifecycle & CRM",
+   "n": 19,
+   "pct": 89.47368421052632
+  },
+  {
+   "subcat": "Growth & Performance",
+   "n": 85,
+   "pct": 64.70588235294117
+  },
+  {
+   "subcat": "Field & Partner Marketing",
+   "n": 27,
+   "pct": 44.44444444444444
+  },
+  {
+   "subcat": "Other Marketing",
+   "n": 22,
+   "pct": 31.818181818181817
+  },
+  {
+   "subcat": "Product Marketing",
+   "n": 61,
+   "pct": 22.950819672131146
+  },
+  {
+   "subcat": "Brand & Creative",
+   "n": 52,
+   "pct": 19.230769230769234
+  },
+  {
+   "subcat": "Content & Social",
+   "n": 53,
+   "pct": 15.09433962264151
+  },
+  {
+   "subcat": "Comms & PR",
+   "n": 20,
+   "pct": 5.0
+  }
+ ],
+ "dose": {
+  "rho": -0.01861321665279532,
+  "p": 0.7489749554680475,
+  "n": 298
+ }
+}

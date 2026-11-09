@@ -1,0 +1,208 @@
+{
+ "nyc_all": 4260,
+ "marketing": 367,
+ "with_pay": 298,
+ "companies": 95,
+ "data_hard_rate": 38.1,
+ "data_required_rate": 57.5,
+ "sig_sql": 9.5,
+ "sig_bi_tool": 8.4,
+ "sig_experiment": 23.2,
+ "sig_attribution": 20.4,
+ "sig_analytics": 48.8,
+ "sig_coding": 3.0,
+ "sig_sheets": 8.4,
+ "by_subcat": [
+  {
+   "subcat": "Marketing Ops & Analytics",
+   "n": 15,
+   "hard": 15,
+   "pct": 100.0
+  },
+  {
+   "subcat": "Lifecycle & CRM",
+   "n": 19,
+   "hard": 17,
+   "pct": 89.5
+  },
+  {
+   "subcat": "Growth & Performance",
+   "n": 85,
+   "hard": 55,
+   "pct": 64.7
+  },
+  {
+   "subcat": "Field & Partner Marketing",
+   "n": 27,
+   "hard": 12,
+   "pct": 44.4
+  },
+  {
+   "subcat": "Other Marketing",
+   "n": 22,
+   "hard": 7,
+   "pct": 31.8
+  },
+  {
+   "subcat": "Product Marketing",
+   "n": 61,
+   "hard": 14,
+   "pct": 23.0
+  },
+  {
+   "subcat": "Brand & Creative",
+   "n": 52,
+   "hard": 10,
+   "pct": 19.2
+  },
+  {
+   "subcat": "Content & Social",
+   "n": 53,
+   "hard": 8,
+   "pct": 15.1
+  },
+  {
+   "subcat": "Events",
+   "n": 13,
+   "hard": 1,
+   "pct": 7.7
+  },
+  {
+   "subcat": "Comms & PR",
+   "n": 20,
+   "hard": 1,
+   "pct": 5.0
+  }
+ ],
+ "overall_gap": {
+  "n_yes": 118,
+  "n_no": 180,
+  "med_yes": 182375.0,
+  "med_no": 176500.0,
+  "diff": 5875.0,
+  "pct": 3.3286118980169865,
+  "ci": [
+   -11552.75,
+   17645.0
+  ]
+ },
+ "by_level": {
+  "IC": {
+   "n_yes": 49,
+   "n_no": 77,
+   "med_yes": 165450.0,
+   "med_no": 161500.0,
+   "diff": 3950.0,
+   "pct": 2.4458204334365297,
+   "ci": [
+    -26707.499999999996,
+    31450.0
+   ]
+  },
+  "Senior": {
+   "n_yes": 47,
+   "n_no": 75,
+   "med_yes": 172327.5,
+   "med_no": 175000.0,
+   "diff": -2672.5,
+   "pct": -1.5271428571428602,
+   "ci": [
+    -17500.0,
+    18650.0
+   ]
+  },
+  "Leadership": {
+   "n_yes": 22,
+   "n_no": 28,
+   "med_yes": 213750.0,
+   "med_no": 238750.0,
+   "diff": -25000.0,
+   "pct": -10.471204188481675,
+   "ci": [
+    -53134.375,
+    25000.0
+   ]
+  }
+ },
+ "hard_by_level": {
+  "IC": {
+   "n": 158,
+   "hard": 60,
+   "pct": 38.0
+  },
+  "Senior": {
+   "n": 150,
+   "hard": 56,
+   "pct": 37.3
+  },
+  "Leadership": {
+   "n": 59,
+   "hard": 24,
+   "pct": 40.7
+  }
+ },
+ "pay_by_level": {
+  "IC": {
+   "median": 162000.0,
+   "n": 126
+  },
+  "Senior": {
+   "median": 174962.0,
+   "n": 122
+  },
+  "Leadership": {
+   "median": 216250.0,
+   "n": 50
+  }
+ },
+ "sensitivity": {
+  "去掉 design 梯子": {
+   "n_yes": 114,
+   "n_no": 165,
+   "med_yes": 180500.0,
+   "med_no": 175000.0,
+   "diff": 5500.0,
+   "pct": 3.142857142857136,
+   "ci": [
+    -11086.73125,
+    18375.0
+   ]
+  },
+  "去掉样本最多的 3 家公司": {
+   "n_yes": 87,
+   "n_no": 154,
+   "med_yes": 178000.0,
+   "med_no": 172400.0,
+   "diff": 5600.0,
+   "pct": 3.2482598607888713,
+   "ci": [
+    -10000.0,
+    27625.0
+   ]
+  },
+  "只看 2026 年发布的": {
+   "n_yes": 116,
+   "n_no": 177,
+   "med_yes": 182375.0,
+   "med_no": 176500.0,
+   "diff": 5875.0,
+   "pct": 3.3286118980169865,
+   "ci": [
+    -12000.0,
+    16597.5
+   ]
+  },
+  "改用软口径 data_required": {
+   "n_yes": 177,
+   "n_no": 121,
+   "med_yes": 175000.0,
+   "med_no": 180500.0,
+   "diff": -5500.0,
+   "pct": -3.0470914127423865,
+   "ci": [
+    -18750.0,
+    4750.0
+   ]
+  }
+ }
+}
